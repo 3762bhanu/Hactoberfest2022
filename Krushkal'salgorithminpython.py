@@ -1,14 +1,12 @@
-# Python program for Kruskal's algorithm to find Minimum Spanning Tree of a given connected,undirected and weighted graph
+# Python program for Kruskal's algo to find Minimum Spanning Tree of a given connected,undirected and weighted graph
 
 from collections import defaultdict
 class Graph:
-
 	def __init__(self, vertices):
 		self.V = vertices # No. of vertices
 		self.graph = [] # default dictionary
 		# to store graph
 
-	# function to add an edge to graph
 	def addEdge(self, u, v, w):
 		self.graph.append([u, v, w])
 
