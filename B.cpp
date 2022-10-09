@@ -45,7 +45,9 @@ printCodes(minHeap.top(), "");
 }
 int main()
 {
-char arr[] = { 'a', 'b', 'c', 'd', 'e', 'f' };
+  int n;cin>>n;
+  char arr[n];
+  for(int i=0;i<n;i++)cin>>a[i];
 int freq[] = { 5, 9, 12, 13, 16, 45 };
 int size = sizeof(arr) / sizeof(arr[0]);
 HuffmanCodes(arr, freq, size);
