@@ -71,8 +71,7 @@ int main()
        
        float now;
 
-       now = ((float)n - ((float)i * 8))/6;
-
+      now=float(ans);
        if(now == (int)now) ans = min(ans, i+(int)now);
    }
 
