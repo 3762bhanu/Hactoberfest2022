@@ -20,5 +20,10 @@ void setIO(string name = "") {cin.tie(0)->sync_with_stdio(0);if (sz(name)) {	fre
 int main()
 { 
   setIO();
+  int n;cin>>n;
+  vector<int> arr;
+  arr.resize(n);
+  for(int i=0;i<n;i++)cin>>arr[i];
+  reverse(arr.begin(),arr.end());
   
 }
